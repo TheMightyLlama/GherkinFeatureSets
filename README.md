@@ -5,9 +5,10 @@ Generic Applications available are:
 * Chat App
 * Banking App
 
-Each feature is written with:
-* Scenarios in the format of specific Acceptance Tests (ATDD)
-* Step definitions for:
+Each feature file:
+* Contains a feature summary
+* Contains Scenarios in the format of specific Acceptance Tests (ATDD)
+* Has related a specific step definition file for each of:
 ** Java
 ** Ruby
 ** JavaScript
