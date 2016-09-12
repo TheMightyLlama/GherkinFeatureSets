@@ -9,6 +9,6 @@ Each feature file:
 * Contains a feature summary
 * Contains Scenarios in the format of specific Acceptance Tests (ATDD)
 * Has related a specific step definition file for each of:
-** Java
-** Ruby
-** JavaScript
+ * Java
+ * Ruby
+ * JavaScript
