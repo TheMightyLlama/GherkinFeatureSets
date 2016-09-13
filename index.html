@@ -36,20 +36,36 @@
 
 <p>Sets of exemplary Gherkin features and step definitions written for fictitious applications</p>
 
-<h2>
-<a id="generic-applications-available-are" class="anchor" href="#generic-applications-available-are" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generic Applications available are:</h2>
+<p>Generic Applications available are:</p>
 
 <ul>
 <li>Chat App</li>
-<li>Banking App (In Progress)</li>
+<li>Banking App</li>
 </ul>
 
-<h2>
-<a id="each-feature-file" class="anchor" href="#each-feature-file" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Each feature file:</h2>
+<p>Each feature file:</p>
 
 <ul>
 <li>Contains a feature summary</li>
+</ul>
+
+<div class="highlight highlight-text-gherkin-feature"><pre>    <span class="pl-k">Feature</span>:<span class="pl-s"> Login with the ChatApp account</span>
+       As a ChatApp user
+       <span class="pl-k">I </span>want to login with my ChatApp credentials
+       So that I can chat with my friends</pre></div>
+
+<ul>
 <li>Contains Scenarios in the format of specific Acceptance Tests (ATDD)</li>
+</ul>
+
+<div class="highlight highlight-text-gherkin-feature"><pre>    <span class="pl-k">Scenario</span>:<span class="pl-s"> Correct Email Pass Combo</span>
+        <span class="pl-k">Given </span>I am not logged into the ChatApp
+        <span class="pl-k">And </span>I use the email address: <span class="pl-s">"foo@example.com"</span>
+        <span class="pl-k">And </span>I use the password: <span class="pl-s">"goodpass"</span>
+        <span class="pl-k">When </span>I attempt to login
+        <span class="pl-k">Then </span>I should be given access to the service</pre></div>
+
+<ul>
 <li>Has related a specific step definition file for each of:
 
 <ul>
