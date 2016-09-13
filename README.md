@@ -9,10 +9,10 @@ Each feature file:
 * Contains a feature summary
 
 ```gherkin
-Feature: Login with the ChatApp account
-    As a ChatApp user
-    I want to login with my ChatApp credentials
-    So that I can chat with my friends
+    Feature: Login with the ChatApp account
+       As a ChatApp user
+       I want to login with my ChatApp credentials
+       So that I can chat with my friends
 ```
 
 
