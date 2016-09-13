@@ -43,10 +43,12 @@
 <li>Banking App</li>
 </ul>
 
-<p>Each feature file:</p>
+<p>Each feature file has:</p>
 
 <ul>
-<li>Contains a feature summary</li>
+<li>A feature summary</li>
+<li>Scenarios in the format of specific Acceptance Tests (ATDD)</li>
+<li>Step definition files for Java, JavaScript and Ruby</li>
 </ul>
 
 <div class="highlight highlight-text-gherkin-feature"><pre>    <span class="pl-k">Feature</span>:<span class="pl-s"> Login with the ChatApp account</span>
@@ -54,9 +56,6 @@
        <span class="pl-k">I </span>want to login with my ChatApp credentials
        So that I can chat with my friends</pre></div>
 
-<ul>
-<li>Contains Scenarios in the format of specific Acceptance Tests (ATDD)</li>
-</ul>
 
 <div class="highlight highlight-text-gherkin-feature"><pre>    <span class="pl-k">Scenario</span>:<span class="pl-s"> Correct Email Pass Combo</span>
         <span class="pl-k">Given </span>I am not logged into the ChatApp
@@ -65,16 +64,7 @@
         <span class="pl-k">When </span>I attempt to login
         <span class="pl-k">Then </span>I should be given access to the service</pre></div>
 
-<ul>
-<li>Has related a specific step definition file for each of:
 
-<ul>
-<li>Java</li>
-<li>Ruby</li>
-<li>JavaScript</li>
-</ul>
-</li>
-</ul>
       </section>
     </div>
 
