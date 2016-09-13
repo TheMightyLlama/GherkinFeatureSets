@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Gherkin Feature Sets : Sets of Gherkin features and step definitions written for fictitious applications">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    <title>Gherkin Feature Sets</title>
+    <title>Gherkin Feature Sets by TheMightyLlama</title>
   </head>
 
   <body>
+    <header>
+      <div class="inner">
+        <h1>Gherkin Feature Sets</h1>
+        <h2></h2>
+        <a href="https://github.com/TheMightyLlama/GherkinFeatureSets" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/TheMightyLlama/GherkinFeatureSets">View on GitHub</a>
-
-          <h1 id="project_title">Gherkin Feature Sets</h1>
-          <h2 id="project_tagline">Sets of Gherkin features and step definitions written for fictitious applications</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/TheMightyLlama/GherkinFeatureSets/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/TheMightyLlama/GherkinFeatureSets/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="gherkin-feature-sets" class="anchor" href="#gherkin-feature-sets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gherkin Feature Sets</h1>
-
-<p>Sets of exemplary Gherkin features and step definitions written for fictitious applications</p>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p>Sets of exemplary Gherkin features and step definitions written for fictitious applications</p>
 
 <h2>
 <a id="generic-applications-available-are" class="anchor" href="#generic-applications-available-are" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generic Applications available are:</h2>
@@ -45,16 +39,10 @@
 </ul>
 
 <h2>
-<a id="each-feature-file-has" class="anchor" href="#each-feature-file-has" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Each feature file has:</h2>
-
-<ul>
-<li>A feature summary</li>
-<li>Scenarios in the format of specific Acceptance Tests (ATDD)</li>
-<li>Step definition files for Java, JavaScript and Ruby</li>
-</ul>
+<a id="each-feature-has" class="anchor" href="#each-feature-has" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Each feature has:</h2>
 
 <h3>
-<a id="feature" class="anchor" href="#feature" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FEATURE</h3>
+<a id="a-feature-summary" class="anchor" href="#a-feature-summary" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A feature summary:</h3>
 
 <div class="highlight highlight-text-gherkin-feature"><pre>    <span class="pl-k">Feature</span>:<span class="pl-s"> Login with the ChatApp account</span>
        As a ChatApp user
@@ -62,7 +50,7 @@
        So that I can chat with my friends</pre></div>
 
 <h3>
-<a id="scenarios" class="anchor" href="#scenarios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SCENARIOS</h3>
+<a id="scenarios" class="anchor" href="#scenarios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Scenarios</h3>
 
 <div class="highlight highlight-text-gherkin-feature"><pre>    <span class="pl-k">Scenario</span>:<span class="pl-s"> Correct Email Pass Combo</span>
         <span class="pl-k">Given </span>I am not logged into the ChatApp
@@ -72,7 +60,7 @@
         <span class="pl-k">Then </span>I should be given access to the service</pre></div>
 
 <h3>
-<a id="java-step-definitions" class="anchor" href="#java-step-definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JAVA STEP DEFINITIONS</h3>
+<a id="java-step-definitions" class="anchor" href="#java-step-definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Java step definitions</h3>
 
 <div class="highlight highlight-source-java"><pre>    <span class="pl-k">@Given</span>(<span class="pl-s"><span class="pl-pds">"</span>^a user with the username <span class="pl-cce">\"</span>([^<span class="pl-cce">\"</span>]*)<span class="pl-cce">\"</span>$<span class="pl-pds">"</span></span>)
     <span class="pl-k">public</span> <span class="pl-k">void</span> a_user_with_the_username_something(<span class="pl-smi">String</span> strArg1) throws <span class="pl-smi">Throwable</span> {
@@ -84,7 +72,7 @@
         <span class="pl-k">throw</span> <span class="pl-k">new</span> <span class="pl-smi">PendingException</span>();</pre></div>
 
 <h3>
-<a id="ruby-step-definitions" class="anchor" href="#ruby-step-definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RUBY STEP DEFINITIONS</h3>
+<a id="ruby-step-definitions" class="anchor" href="#ruby-step-definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ruby step definitions</h3>
 
 <div class="highlight highlight-source-ruby"><pre>    <span class="pl-c1">Given</span> <span class="pl-k">/</span><span class="pl-k">^</span>a user with the username \<span class="pl-s"><span class="pl-pds">"</span>([^<span class="pl-cce">\"</span>]*)<span class="pl-cce">\"</span>$/<span class="pl-pds">"</span></span> <span class="pl-k">do </span>|<span class="pl-smi">foochatappcom</span>|
         <span class="pl-c"># do something</span>
@@ -95,18 +83,25 @@
     <span class="pl-c1">When</span> <span class="pl-k">/</span><span class="pl-k">^</span><span class="pl-c1">I</span> attempt to login<span class="pl-smi">$/</span> <span class="pl-k">do </span>
         <span class="pl-c"># do something</span>
     <span class="pl-k">end</span></pre></div>
-      </section>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/TheMightyLlama/GherkinFeatureSets/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/TheMightyLlama/GherkinFeatureSets/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/TheMightyLlama/GherkinFeatureSets"></a> is maintained by <a href="https://github.com/TheMightyLlama">TheMightyLlama</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Gherkin Feature Sets maintained by <a href="https://github.com/TheMightyLlama">TheMightyLlama</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
+  
   </body>
 </html>
