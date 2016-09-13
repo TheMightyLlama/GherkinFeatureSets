@@ -1,9 +1,6 @@
-# Gherkin Feature Sets
-Sets of exemplary Gherkin features and step definitions written for fictitious applications
+# Feature Sets
 
-## Feature Sets
-
-### Chat App
+## Chat App
 
 * Connectivity
 * Contacts
@@ -32,8 +29,7 @@ Sets of exemplary Gherkin features and step definitions written for fictitious a
 * Settings
  * Notifications Colour
 
-
-### Banking App (In Progress)
+## Banking App (In Progress)
 
 * App Account
  * Register
