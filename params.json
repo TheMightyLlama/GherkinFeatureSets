@@ -1,0 +1,6 @@
+{
+  "name": "Gherkin Feature Sets",
+  "tagline": "Sets of Gherkin features and step definitions written for fictitious applications",
+  "body": "# Gherkin Feature Sets\r\nSets of exemplary Gherkin features and step definitions written for fictitious applications\r\n\r\n## Generic Applications available are:\r\n* Chat App\r\n* Banking App (In Progress)\r\n\r\n## Each feature file:\r\n* Contains a feature summary\r\n* Contains Scenarios in the format of specific Acceptance Tests (ATDD)\r\n* Has related a specific step definition file for each of:\r\n * Java\r\n * Ruby\r\n * JavaScript\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
