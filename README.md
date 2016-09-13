@@ -48,26 +48,24 @@ Sets of exemplary Gherkin features and step definitions written for fictitious a
   * Request New Card
   * Cancel Existing Card	
  * Account transfers & transactions
-		View Transfers & Transactions on account
-		Filters Transfers & Transactions on account
-		Search Transfers & Transactions on account
-		Download Transfers & Transactions
-		Request Paper Statement
-	
-	Ad-Hoc Transfers
-		Perform Internal EFT
-		Perform External National EFT
-		Perform External International EFT
-
-	Scheduled Transfers
-		View Scheduled Transfers on account
-		Standing Orders
-			View Standing Orders on account
-			Create New Standing Order
-			Edit Existing Standing Order
-			Delete Existing Standing Order
-		Direct Debit Actions
-			View Direct Debits on account
-			Create New Direct Debit
-			Edit Existing Direct Debit
-			Delete Existing Direct Debit
+  * View Transfers & Transactions on account
+  * Filters Transfers & Transactions on account
+  * Search Transfers & Transactions on account
+  * Download Transfers & Transactions
+  * Request Paper Statement
+ * Ad-Hoc Transfers
+  * Perform Internal EFT
+  * Perform External National EFT
+  * Perform External International EFT
+ * Scheduled Transfers
+  * View Scheduled Transfers on account
+  * Standing Orders
+   * View Standing Orders on account
+   * Create New Standing Order
+   * Edit Existing Standing Order
+   * Delete Existing Standing Order
+  * Direct Debit Actions
+   * View Direct Debits on account
+   * Create New Direct Debit
+   * Edit Existing Direct Debit
+   * Delete Existing Direct Debit
