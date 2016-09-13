@@ -36,14 +36,16 @@
 
 <p>Sets of exemplary Gherkin features and step definitions written for fictitious applications</p>
 
-<p>Generic Applications available are:</p>
+<h2>
+<a id="generic-applications-available-are" class="anchor" href="#generic-applications-available-are" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generic Applications available are:</h2>
 
 <ul>
 <li>Chat App</li>
 <li>Banking App</li>
 </ul>
 
-<p>Each feature file has:</p>
+<h2>
+<a id="each-feature-file-has" class="anchor" href="#each-feature-file-has" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Each feature file has:</h2>
 
 <ul>
 <li>A feature summary</li>
@@ -51,13 +53,16 @@
 <li>Step definition files for Java, JavaScript and Ruby</li>
 </ul>
 
+<h3>
+<a id="feature" class="anchor" href="#feature" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>FEATURE</h3>
+
 <div class="highlight highlight-text-gherkin-feature"><pre>    <span class="pl-k">Feature</span>:<span class="pl-s"> Login with the ChatApp account</span>
        As a ChatApp user
        <span class="pl-k">I </span>want to login with my ChatApp credentials
        So that I can chat with my friends</pre></div>
-</br>
-<hr>
-</br>
+
+<h3>
+<a id="scenarios" class="anchor" href="#scenarios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SCENARIOS</h3>
 
 <div class="highlight highlight-text-gherkin-feature"><pre>    <span class="pl-k">Scenario</span>:<span class="pl-s"> Correct Email Pass Combo</span>
         <span class="pl-k">Given </span>I am not logged into the ChatApp
@@ -66,7 +71,30 @@
         <span class="pl-k">When </span>I attempt to login
         <span class="pl-k">Then </span>I should be given access to the service</pre></div>
 
+<h3>
+<a id="java-step-definitions" class="anchor" href="#java-step-definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JAVA STEP DEFINITIONS</h3>
 
+<div class="highlight highlight-source-java"><pre>    <span class="pl-k">@Given</span>(<span class="pl-s"><span class="pl-pds">"</span>^a user with the username <span class="pl-cce">\"</span>([^<span class="pl-cce">\"</span>]*)<span class="pl-cce">\"</span>$<span class="pl-pds">"</span></span>)
+    <span class="pl-k">public</span> <span class="pl-k">void</span> a_user_with_the_username_something(<span class="pl-smi">String</span> strArg1) throws <span class="pl-smi">Throwable</span> {
+        <span class="pl-k">throw</span> <span class="pl-k">new</span> <span class="pl-smi">PendingException</span>();
+    }
+
+    <span class="pl-k">@Given</span>(<span class="pl-s"><span class="pl-pds">"</span>^I am not logged into the ChatApp$<span class="pl-pds">"</span></span>)
+    <span class="pl-k">public</span> <span class="pl-k">void</span> i_am_not_logged_into_the_chatapp() throws <span class="pl-smi">Throwable</span> {
+        <span class="pl-k">throw</span> <span class="pl-k">new</span> <span class="pl-smi">PendingException</span>();</pre></div>
+
+<h3>
+<a id="ruby-step-definitions" class="anchor" href="#ruby-step-definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>RUBY STEP DEFINITIONS</h3>
+
+<div class="highlight highlight-source-ruby"><pre>    <span class="pl-c1">Given</span> <span class="pl-k">/</span><span class="pl-k">^</span>a user with the username \<span class="pl-s"><span class="pl-pds">"</span>([^<span class="pl-cce">\"</span>]*)<span class="pl-cce">\"</span>$/<span class="pl-pds">"</span></span> <span class="pl-k">do </span>|<span class="pl-smi">foochatappcom</span>|
+        <span class="pl-c"># do something</span>
+    <span class="pl-k">end</span>
+    <span class="pl-c1">Given</span> <span class="pl-k">/</span><span class="pl-k">^</span><span class="pl-c1">I</span> am <span class="pl-k">not</span> logged into the <span class="pl-c1">ChatApp</span><span class="pl-smi">$/</span> <span class="pl-k">do </span>
+        <span class="pl-c"># do something</span>
+    <span class="pl-k">end</span>
+    <span class="pl-c1">When</span> <span class="pl-k">/</span><span class="pl-k">^</span><span class="pl-c1">I</span> attempt to login<span class="pl-smi">$/</span> <span class="pl-k">do </span>
+        <span class="pl-c"># do something</span>
+    <span class="pl-k">end</span></pre></div>
       </section>
     </div>
 
