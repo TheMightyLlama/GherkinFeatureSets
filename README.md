@@ -1,56 +1,83 @@
 # Gherkin Feature Sets
 Sets of exemplary Gherkin features and step definitions written for fictitious applications
 
-## Generic Applications available are:
-* Chat App
-* Banking App
+## Feature Sets
 
-## Each feature file has:
+### Chat App
 
-A feature summary
-Scenarios in the format of specific Acceptance Tests (ATDD)
-Step definition files for Java, JavaScript and Ruby
+Connectivity
 
-```gherkin
-    Feature: Login with the ChatApp account
-       As a ChatApp user
-       I want to login with my ChatApp credentials
-       So that I can chat with my friends
-```
+Contacts
+    Add Contact
+    Block Contact
+    Sync Contact
+
+Login
+    With ChatApp Account
+    With Facebook Account
+    With Google Account
+
+Notifications
+    When Contact Registers
+    When Contact Sends Message
+
+Registration
+    With ChatApp Account
+    With Facebook Account
+    With Google Account
+
+Send Message
+    Send Emoji
+    Send Image  
+    Send Location
+    Send Sound Clip
+    Send Text String
+    Send Video Clip
+    Send Web Link
+
+Settings
+    Notifications Colour
 
 
- 
-```gherkin
-    Scenario: Correct Email Pass Combo
-        Given I am not logged into the ChatApp
-        And I use the email address: "foo@example.com"
-        And I use the password: "goodpass"
-        When I attempt to login
-        Then I should be given access to the service
-```
+### Banking App (In Progress)
 
-```Java
-    @Given("^a user with the username \"([^\"]*)\"$")
-    public void a_user_with_the_username_something(String strArg1) throws Throwable {
-        throw new PendingException();
-    }
+App Account
+	Register
+	Login
 
-    @Given("^I am not logged into the ChatApp$")
-    public void i_am_not_logged_into_the_chatapp() throws Throwable {
-        throw new PendingException();
-```
+Bank Account
+	
+	Contact Details
+		Mailing Address
+		Telephone Contact
+		Email Address
 
-```JavaScript
-```
+	Cards
+		View Cards on account
+		Request New Card
+		Cancel Existing Card	
 
-```Ruby
-    Given /^a user with the username \"([^\"]*)\"$/ do |foochatappcom|
-        # do something
-    end
-    Given /^I am not logged into the ChatApp$/ do 
-        # do something
-    end
-    When /^I attempt to login$/ do 
-        # do something
-    end
-```
+	Account transfers & transactions
+		View Transfers & Transactions on account
+		Filters Transfers & Transactions on account
+		Search Transfers & Transactions on account
+		Download Transfers & Transactions
+		Request Paper Statement
+	
+	Ad-Hoc Transfers
+		Perform Internal EFT
+		Perform External National EFT
+		Perform External International EFT
+
+	Scheduled Transfers
+		View Scheduled Transfers on account
+		Standing Orders
+			View Standing Orders on account
+			Create New Standing Order
+			Edit Existing Standing Order
+			Delete Existing Standing Order
+		Direct Debit Actions
+			View Direct Debits on account
+			Create New Direct Debit
+			Edit Existing Direct Debit
+			Delete Existing Direct Debit
