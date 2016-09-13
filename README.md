@@ -5,59 +5,49 @@ Sets of exemplary Gherkin features and step definitions written for fictitious a
 
 ### Chat App
 
-Connectivity
-
-Contacts
-    Add Contact
-    Block Contact
-    Sync Contact
-
-Login
-    With ChatApp Account
-    With Facebook Account
-    With Google Account
-
-Notifications
-    When Contact Registers
-    When Contact Sends Message
-
-Registration
-    With ChatApp Account
-    With Facebook Account
-    With Google Account
-
-Send Message
-    Send Emoji
-    Send Image  
-    Send Location
-    Send Sound Clip
-    Send Text String
-    Send Video Clip
-    Send Web Link
-
-Settings
-    Notifications Colour
+* Connectivity
+* Contacts
+ * Add Contact
+ * Block Contact
+ * Sync Contact
+* Login
+ * With ChatApp Account
+ * With Facebook Account
+ * With Google Account
+* Notifications
+ * When Contact Registers
+ * When Contact Sends Message
+* Registration
+ * With ChatApp Account
+ * With Facebook Account
+ * With Google Account
+* Send Message
+ * Send Emoji
+ * Send Image  
+ * Send Location
+ * Send Sound Clip
+ * Send Text String
+ * Send Video Clip
+ * Send Web Link
+* Settings
+ * Notifications Colour
 
 
 ### Banking App (In Progress)
 
-App Account
-	Register
-	Login
-
-Bank Account
-	
-	Contact Details
-		Mailing Address
-		Telephone Contact
-		Email Address
-
-	Cards
-		View Cards on account
-		Request New Card
-		Cancel Existing Card	
-
-	Account transfers & transactions
+* App Account
+ * Register
+ * Login
+* Bank Account
+ * Contact Details
+ * Mailing Address
+ * Telephone Contact
+ * Email Address
+ * Cards
+  * View Cards on account
+  * Request New Card
+  * Cancel Existing Card	
+ * Account transfers & transactions
 		View Transfers & Transactions on account
 		Filters Transfers & Transactions on account
 		Search Transfers & Transactions on account
