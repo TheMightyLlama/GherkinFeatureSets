@@ -36,9 +36,9 @@
  * Login
 * Bank Account
  * Contact Details
- * Mailing Address
- * Telephone Contact
- * Email Address
+    * Mailing Address (View, Edit)
+    * Telephone Address (View, Edit)
+    * Email Address (View, Edit)
  * Cards
     * View Cards on account
     * Request New Card
