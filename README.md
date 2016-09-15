@@ -1,6 +1,6 @@
 # Feature Sets
 
-## Chat App
+## [Chat App](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp)
 
 * Connectivity
 * Contacts
