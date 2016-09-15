@@ -2,23 +2,23 @@
 
 ## [Chat App](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp)
 
-* Connectivity
-* Contacts
+* [Connectivity](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp/Connectivity)
+* [Contacts](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp/Contacts)
  * Add Contact
  * Block Contact
  * Sync Contact
-* Login
+* [Login](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp/Login)
  * With ChatApp Account
  * With Facebook Account
  * With Google Account
-* Notifications
+* [Notifications](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp/Notifications)
  * When Contact Registers
  * When Contact Sends Message
-* Registration
+* [Registration](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp/Registration)
  * With ChatApp Account
  * With Facebook Account
  * With Google Account
-* Send Message
+* [Send Message](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp/Send%20Message)
  * Send Emoji
  * Send Image  
  * Send Location
@@ -26,7 +26,7 @@
  * Send Text String
  * Send Video Clip
  * Send Web Link
-* Settings
+* [Settings](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/ChatApp/Settings)
  * Notifications Colour
 
 ## Banking App (In Progress)
