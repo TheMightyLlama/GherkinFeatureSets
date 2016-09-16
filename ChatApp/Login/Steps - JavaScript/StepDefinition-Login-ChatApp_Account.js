@@ -20,6 +20,10 @@ module.exports = function () {
     callback.pending();
   });
 
+  this.Then(/^I should be informed: \"([^\"]*)\"$/, function (theemailandpasswordcombindationdoesnotmatchanaccountpleasetryagain, callback) {
+    callback.pending();
+  });
+
   this.Then(/^I am informed that the username I am attempting has not been registered$/, function (callback) {
     callback.pending();
   });

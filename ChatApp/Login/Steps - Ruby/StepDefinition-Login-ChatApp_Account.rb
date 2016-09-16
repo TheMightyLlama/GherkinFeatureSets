@@ -1,4 +1,4 @@
-Given /^a user with the username \"([^\"]*)\"$/ do |foochatappcom|
+Given /^a user with the username \"([^\"]*)\"$/" do |foochatappcom|
     # do something
 end
 
@@ -18,6 +18,10 @@ Then /^I should be given access to the service$/ do
     # do something
 end
 
+Then /^I should be informed: \"([^\"]*)\"$/" do |theemailandpasswordcombindationdoesnotmatchanaccountpleasetryagain|
+    # do something
+end
+
 Then /^I am informed that the username I am attempting has not been registered$/ do 
     # do something
 end
@@ -26,15 +30,15 @@ Then /^I should be informed that I have made too many attempts$/ do
     # do something
 end
 
-And /^a password \"([^\"]*)\"$/ do |goodpass|
+And /^a password \"([^\"]*)\"$/" do |goodpass|
     # do something
 end
 
-And /^I use the email address: \"([^\"]*)\"$/ do |foochatappcom|
+And /^I use the email address: \"([^\"]*)\"$/" do |foochatappcom|
     # do something
 end
 
-And /^I use the password: \"([^\"]*)\"$/ do |goodpass|
+And /^I use the password: \"([^\"]*)\"$/" do |goodpass|
     # do something
 end
 

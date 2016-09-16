@@ -15,6 +15,12 @@ Feature: Login with the ChatApp account
         When I attempt to login
         Then I should be given access to the service
 
+    Scenario: Incorrect Password
+        Given I am not logged into the ChatApp
+        And I use the email address: "foo@chatapp.com"
+        And I use the password: "badpass"
+        When I attempt to login
+        Then I should be informed: "The email and password combindation does not match an account. Please try again"
 
     Scenario Outline: Non-existent username
         Given I am not logged into the ChatApp
