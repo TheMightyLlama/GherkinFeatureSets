@@ -36,6 +36,11 @@ public class MyStepDefinitions {
         throw new PendingException();
     }
 
+    @Then("^I should be informed: \"([^\"]*)\"$")
+    public void i_should_be_informed_something(String strArg1) throws Throwable {
+        throw new PendingException();
+    }
+
     @Then("^I am informed that the username I am attempting has not been registered$")
     public void i_am_informed_that_the_username_i_am_attempting_has_not_been_registered() throws Throwable {
         throw new PendingException();
