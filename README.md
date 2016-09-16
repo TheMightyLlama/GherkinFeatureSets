@@ -32,7 +32,7 @@
 ## Banking App (In Progress)
 
 * App Account
- * Register
+ * [Register](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/BankApp/Registration)
  * Login
 * Bank Account
  * Contact Details
