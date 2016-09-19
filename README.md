@@ -31,8 +31,8 @@
 
 ## Banking App (In Progress)
 
-* App Account
- * [Register](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/BankApp/Registration)
+* [App Account](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/BankApp/App%20Account)
+ * Register
  * Login
 * Bank Account
  * Contact Details
