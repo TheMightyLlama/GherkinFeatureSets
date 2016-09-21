@@ -27,8 +27,7 @@ Feature: Login with the ChatApp account
         And I use the email address: <email>
         And I use the password: <password>
         When I attempt to login
-        Then I am informed that the username I am attempting has not been registered
-        And I should be prompted to register with <email>
+        Then I should be informed: "The email and password combindation does not match an account. Please try again"
         
       Examples:
         | email              | password | 
