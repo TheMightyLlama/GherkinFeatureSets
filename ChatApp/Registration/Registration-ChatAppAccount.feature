@@ -13,6 +13,7 @@ Feature: Registration - Chat App Account
         When I attempt to register with the email address: <email> 
         And I attempt to register with the password: <password>
         Then I should be sent a registration email
+        And I should be logged in immediately
 
         Examples:
             | <email>                                                           | <password>                         |  
