@@ -35,7 +35,7 @@
  * Register
  * Login
 * Bank Account
- * Contact Details
+ * [Contact Details](https://github.com/TheMightyLlama/GherkinFeatureSets/tree/master/BankApp/Bank%20Account/Contact)
     * Mailing Address (View, Edit)
     * Telephone Address (View, Edit)
     * Email Address (View, Edit)
