@@ -66,4 +66,3 @@
       * Edit Existing Direct Debit
       * Delete Existing Direct Debit
 
-## E-Commerce (Scheduled)
